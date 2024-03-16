@@ -4,3 +4,7 @@
     box-sizing: border-box;
     font-family: "Patua One", "Press Start 2P", system-ui;
 }
+
+:root {
+    --default-font-readable: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

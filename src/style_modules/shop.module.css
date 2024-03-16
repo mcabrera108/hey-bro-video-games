@@ -2,4 +2,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
+    padding: 2rem 1rem;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1.2rem 0px;
 }

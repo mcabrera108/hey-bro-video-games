@@ -1,0 +1,17 @@
+.viewProductBtn {
+    padding: 10px;
+    margin-top: 1rem;
+    width: 100%;
+    font-family: var(--default-font-readable);
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0px solid black;
+    border-radius: 10px;
+    transition: background-color 500ms;
+    background-color: rgb(206, 206, 206);
+}
+
+.viewProductBtn:hover {
+    cursor: pointer;
+    background-color: gold;
+}
