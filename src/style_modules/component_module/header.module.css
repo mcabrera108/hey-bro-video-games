@@ -1,0 +1,9 @@
+/*Styling Sheet for Header.jsx Component*/
+:root {
+    --nav-bg-color: #367de7;
+}
+
+.headerContainer {
+    padding: 2rem;
+    background-color: var(--nav-bg-color);
+}

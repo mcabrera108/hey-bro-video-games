@@ -1,0 +1,22 @@
+import style from "../style_modules/component_module/footer.module.css";
+
+function Footer() {
+    const iconStyle = {
+        "color": "white",
+        "margin": "0px 5px"
+    }
+    return (
+        <footer className={style.footerContainer}>
+            <div className={style.connectContainer}>
+                <span className={style.connectHeader}>Connect With Us</span>
+                <div className={style.iconContainer}>
+                    <i className="fa fa-instagram fa-3x" aria-hidden="true" style={iconStyle}></i>
+                    <i className="fa fa-facebook-official fa-3x" aria-hidden="true" style={iconStyle}></i>
+                    <i className="fa fa-youtube-play fa-3x" aria-hidden="true" style={iconStyle}></i>
+                </div>
+                <span className={style.copyrightTitle}>© 2023 by Hey Bro!! Video Games</span>
+            </div>
+        </footer>
+    )
+}
+export default Footer;

@@ -1,0 +1,31 @@
+:root {
+    --footer-bg-color: #367de7;
+}
+
+.footerContainer {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--footer-bg-color);
+    justify-content: center;
+    color: white;
+}
+
+.connectContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.connectHeader {
+    text-align: center;
+}
+
+.iconContainer,
+.copyrightTitle {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.copyrightTitle {
+    font-size: .8rem;
+}

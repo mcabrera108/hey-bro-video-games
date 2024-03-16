@@ -1,0 +1,63 @@
+:root {
+    --nav-btn-bg-color-hover: rgb(226, 226, 226);
+    --nav-default-font-btn: "Press Start 2P", "VT323", system-ui;
+    --nav-default-font-family: "Press Start 2P", "VT323", system-ui;
+    --banner-default-font-color: #6c9fec;
+    --nav-default-bg-color: #367de7;
+    --nav-font-color: white;
+    --nav-font-color-visited: black;
+}
+
+.eachSlideEffect>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.bannerTitleContainer,
+.bannerSubtitleContainer {
+    font-size: 3rem;
+    font-family: var(--nav-default-font-family);
+    color: var(--banner-default-font-color);
+    animation: fadeInAnimation ease 2s;
+    text-shadow: 2px 2px 4px #0e2b57;
+}
+
+.bannerTitleContainer,
+.bannerSubtitleContainer,
+.bannerBtnContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bannerSubContainer {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 70%;
+    z-index: 12;
+
+}
+
+.bannerSubtitleContainer {
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.bannerBtnContainer {
+    margin-top: 1.9rem;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
