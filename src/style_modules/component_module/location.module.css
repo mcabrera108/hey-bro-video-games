@@ -1,0 +1,19 @@
+.locationContainer {
+    display: flex;
+    padding: 4rem 2rem;
+}
+
+.addressContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.googleMapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}

@@ -11,3 +11,7 @@
     width: 100%;
     padding: 1.2rem 0px;
 }
+
+.mainContainer {
+    min-height: 90vh;
+}

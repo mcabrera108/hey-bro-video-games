@@ -10,7 +10,6 @@ function SearchBar(props) {
             onChange={props.handleSearchUpdate}
             value={props.searchInput}
             type="text">
-
         </input>
     )
 }

@@ -1,8 +1,12 @@
 import React from "react";
 import style from "../style_modules/component_module/cardbutton.module.css";
-function CardButton() {
+import { Link } from "react-router-dom";
+function CardButton({ productID }) {
     return (
-        <button className={style.viewProductBtn}>View Product</button>
+        <Link className={style.link} to={`/shop/${productID}`}>
+            <button className={style.viewProductBtn}>View Product</button>
+        </Link>
+
     )
 }
 export default CardButton;

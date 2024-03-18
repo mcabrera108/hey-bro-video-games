@@ -1,4 +1,8 @@
-.viewProductBtn {
+.link {
+    width: 100%;
+}
+
+.link .viewProductBtn {
     padding: 10px;
     margin-top: 1rem;
     width: 100%;

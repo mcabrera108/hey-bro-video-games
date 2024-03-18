@@ -1,0 +1,61 @@
+.productContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.productImage {
+    height: 500px;
+    width: 500px;
+}
+
+.productSummaryContainer,
+form {
+    display: flex;
+    flex-direction: column;
+    --default-product-family: 'Roboto', sans-serif;
+}
+
+
+.productName,
+.productPrice,
+.productCondition {
+    font-family: var(--default-product-family);
+    font-weight: 500;
+
+}
+
+.productName {
+    color: rgb(21, 21, 131);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.productPrice {
+    color: rgb(212, 97, 31);
+    font-size: 2.5rem;
+    margin-top: 1.6rem;
+}
+
+.productCondition {
+    font-size: 1.8rem;
+    margin-top: 1.4rem;
+}
+
+form {
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.cartBtn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    background-color: gold;
+}
+
+.quantitySelect {
+    padding: 0px 7px;
+    width: 90px;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}

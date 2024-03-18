@@ -5,6 +5,7 @@ import Error from "../components/Error";
 import Card from "../components/Card";
 import style from "../style_modules/shop.module.css";
 import SearchBar from "../components/SearchBar";
+import Header from "../components/Header";
 
 function Shop() {
     const { products, error, loading } = useInventory();
@@ -18,16 +19,21 @@ function Shop() {
 
     if (loading) return <Loading />
     return (
-        <div>
-            <div className={style.searchContainer}>
-                <SearchBar searchInput={filterProducts} handleSearchUpdate={handleSearchUpdate} />
-            </div>
-            <div className={style.shopContainer}>
-                {products.map((product) => {
-                    return <Card key={product.id} productDetails={product} />
-                })}
-            </div>
-        </div>
+        <>
+            <Header />
+            <div className={style.mainContainer}>
+                <div className={style.searchContainer}>
+                    <SearchBar searchInput={filterProducts} handleSearchUpdate={handleSearchUpdate} />
+                </div>
+                <div className={style.shopContainer}>
+                    {products.filter((product) => product.title.toLowerCase().includes(filterProducts.toLowerCase()))
+                        .map((product) => {
+                            return <Card productDetails={product} key={product.id} />
+                        })}
+                </div>
+            </div >
+        </>
+
     )
 }
 export default Shop;

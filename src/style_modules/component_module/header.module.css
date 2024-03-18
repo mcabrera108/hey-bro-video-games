@@ -4,6 +4,24 @@
 }
 
 .headerContainer {
+    display: flex;
+    justify-content: space-between;
     padding: 2rem;
     background-color: var(--nav-bg-color);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitle {
+    display: flex;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.fa-shopping-cart:hover {
+    cursor: pointer;
 }

@@ -14,7 +14,7 @@ function Card({ productDetails }) {
             <p className={style.productTitle}>{productDetails.title}</p>
             <span className={style.productTag}>{productDetails.category}</span>
             <span className={style.priceTag}>{productPrice} USD</span>
-            <CardButton />
+            <CardButton productID={productDetails.id} />
         </div>
     )
 }
