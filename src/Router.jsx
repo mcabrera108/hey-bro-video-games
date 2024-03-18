@@ -12,6 +12,9 @@ function Router() {
     const [cartItems, setCartItems] = useState([]);
 
     const handleAddCartItems = (e, id, quantity) => {
+        //Add function to add item to already existing item in cart. 
+        //Don't increment cart counter when there are multiple of same product
+        //Add function that prevents users from adding more than maximum quantity
         e.preventDefault();
         setCartItems([
             ...cartItems,
