@@ -1,0 +1,74 @@
+.aboutBannerContainer {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBannerHeaderContainer {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    width: 60%;
+    z-index: 12;
+}
+
+.aboutBannerImg {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.aboutBannerTitleContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--nav-default-font-family);
+    color: var(--banner-default-font-color);
+    animation: fadeInAnimation ease 2s;
+    text-shadow: 2px 2px 4px #0e2b57;
+}
+
+.aboutDescriptionContainer {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+}
+
+.aboutBannerDescriptionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.aboutBannerDescription {
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.aboutBannerPhotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.aboutBannerImage {
+    width: 500px;
+    height: 600px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

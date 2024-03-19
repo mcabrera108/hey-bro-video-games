@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Shop from "./pages/Shop";
 import ProductPage from "./pages/ProductPage";
 import cartContext from "./context/cartContext";
+import About from "./pages/About";
 
 
 function Router() {
@@ -37,6 +38,10 @@ function Router() {
         {
             path: "/shop/:id",
             element: <ProductPage />
+        },
+        {
+            path: "/about",
+            element: <About />
         }
     ])
 

@@ -5,7 +5,7 @@ function Links() {
     return (<>
         <ul>
             <li><Link to="/" className={style.navLink}>Home</Link></li>
-            <li><Link to="/About">About</Link></li>
+            <li><Link to="/about">About</Link></li>
             <li><Link to="/shop">Shop</Link></li>
         </ul>
     </>)
