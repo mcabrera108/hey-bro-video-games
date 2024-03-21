@@ -1,0 +1,46 @@
+.checkoutRowContainer {
+    display: flex;
+    width: 70%;
+    padding: 1.5rem 1.5rem;
+}
+
+.checkoutItem {
+    width: 100px;
+    height: 100px;
+    margin-right: 3rem;
+}
+
+.checkoutForm {
+    width: 100%;
+}
+
+.itemLink,
+.itemLink:visited,
+.itemLink:active {
+    font-size: 1.2rem;
+    color: blue;
+}
+
+.productSummaryRow,
+.priceContainer,
+.quantityContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.price,
+.priceTag,
+.quantity,
+.quantitySelect {
+    margin-top: 1rem;
+}
+
+.numContainer {
+    display: flex;
+}
+
+.priceTag,
+.quantitySelect {
+    padding: 10px 10px 10px 2px;
+}

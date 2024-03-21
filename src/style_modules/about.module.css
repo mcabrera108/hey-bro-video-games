@@ -45,6 +45,9 @@
 }
 
 .aboutBannerDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     font-size: 1.2rem;
     text-align: center;

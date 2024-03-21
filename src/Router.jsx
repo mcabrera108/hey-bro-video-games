@@ -7,6 +7,7 @@ import Shop from "./pages/Shop";
 import ProductPage from "./pages/ProductPage";
 import cartContext from "./context/cartContext";
 import About from "./pages/About";
+import Checkout from "./pages/Checkout";
 
 
 function Router() {
@@ -25,6 +26,10 @@ function Router() {
             }
         ])
     }
+    const deleteEntries = () => {
+        setCartItems([]);
+        console.log("Checkout Complete");
+    }
     const router = createBrowserRouter([
         {
             path: "/",
@@ -42,11 +47,15 @@ function Router() {
         {
             path: "/about",
             element: <About />
+        },
+        {
+            path: "/checkout",
+            element: <Checkout />
         }
     ])
 
     return (
-        <cartContext.Provider value={{ cartItems, handleAddCartItems }}>
+        <cartContext.Provider value={{ cartItems, handleAddCartItems, deleteEntries }}>
             <RouterProvider router={router} />
             <Footer />
         </cartContext.Provider>
