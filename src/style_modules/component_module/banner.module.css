@@ -51,6 +51,19 @@
     margin-top: 1.9rem;
 }
 
+.bannerRedirectShopBtn {
+    padding: 1.2rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+    transition: background-color ease .5s;
+}
+
+.bannerRedirectShopBtn:hover {
+    background-color: gold;
+    color: black;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;

@@ -28,7 +28,7 @@ function Router() {
     }
     const deleteEntries = () => {
         setCartItems([]);
-        console.log("Checkout Complete");
+        alert("Checkout Complete");
     }
     const router = createBrowserRouter([
         {

@@ -5,12 +5,18 @@
     align-items: center;
 }
 
-.aboutBannerHeaderContainer {
+.aboutBannerHeader {
     position: absolute;
-    top: 35%;
-    left: 20%;
-    width: 60%;
+    top: 50%;
+    left: 15%;
+    width: 70%;
     z-index: 12;
+    display: flex;
+    justify-content: center;
+    color: var(--banner-default-font-color);
+    animation: fadeInAnimation ease 2s;
+    text-shadow: 2px 2px 4px #0e2b57;
+    font-size: 3rem;
 }
 
 .aboutBannerImg {
@@ -20,31 +26,13 @@
     object-position: center;
 }
 
-.aboutBannerTitleContainer {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 3rem;
-    font-family: var(--nav-default-font-family);
-    color: var(--banner-default-font-color);
-    animation: fadeInAnimation ease 2s;
-    text-shadow: 2px 2px 4px #0e2b57;
-}
-
-.aboutDescriptionContainer {
+.aboutMainContainer {
     width: 100%;
     padding: 2rem;
     display: flex;
 }
 
-.aboutBannerDescriptionContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-
-.aboutBannerDescription {
+.aboutDescriptionContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +48,7 @@
     width: 50%;
 }
 
-.aboutBannerImage {
+.aboutImage {
     width: 500px;
     height: 600px;
 }

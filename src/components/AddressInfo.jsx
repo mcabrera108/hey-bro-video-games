@@ -5,18 +5,16 @@ import { v4 as uuidv4 } from "uuid";
 
 function AddressInfo(props) {
     return (
-        <>
-            <div className={style.addressBlock}>
-                <span className={style.addressHeader}>{props.addressHeader}</span>
-                <div className={style.addressNameContainer}>
-                    {props.descList.map((list) => {
-                        return (
-                            <div className={style.address} key={list.key}>{list.desc}</div>
-                        )
-                    })}
-                </div>
+        <section className={style.addressContainer}>
+            <span className={style.addressHeader}>{props.addressHeader}</span>
+            <div className={style.addressNameContainer}>
+                {props.descList.map((list) => {
+                    return (
+                        <div className={style.address} key={list.key}>{list.desc}</div>
+                    )
+                })}
             </div>
-        </>
+        </section>
     )
 }
 AddressInfo.propTypes = {

@@ -26,6 +26,10 @@
     text-align: center;
 }
 
+i:hover {
+    cursor: pointer;
+}
+
 .copyrightTitle {
     font-size: .8rem;
 }

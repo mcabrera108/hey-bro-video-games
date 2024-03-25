@@ -1,6 +1,6 @@
 .productContainer {
     display: flex;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .imageContainer {
@@ -57,6 +57,10 @@ form {
     font-size: 1.6rem;
     padding: 1rem 2rem;
     background-color: gold;
+}
+
+.cartBtn:hover {
+    cursor: pointer;
 }
 
 .quantitySelect {

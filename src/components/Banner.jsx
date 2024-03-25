@@ -5,6 +5,7 @@ import style from "../style_modules/component_module/banner.module.css";
 import image_1 from "../assets/heybrovideogames_1.jpg";
 import image_2 from "../assets/heybrovideogames_2.jpg";
 import image_3 from "../assets/heybrovideogames_3.jpeg";
+import { Link } from "react-router-dom";
 
 function Banner() {
     const imageList = [
@@ -41,14 +42,14 @@ function Banner() {
                 </div>
             </Fade>
             <div className={style.bannerSubContainer}>
-                <div className={style.bannerTitleContainer}>
+                <span className={style.bannerTitleContainer}>
                     Hey Bro!! Video Games
-                </div>
-                <div className={style.bannerSubtitleContainer}>
+                </span>
+                <span className={style.bannerSubtitleContainer}>
                     We BUY, SELL, & TRADE all video games!
-                </div>
+                </span>
                 <div className={style.bannerBtnContainer}>
-
+                    <Link to="/shop" className={style.bannerRedirectShopBtn}>SHOP NOW</Link>
                 </div>
             </div>
         </>
