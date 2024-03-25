@@ -44,3 +44,17 @@
 .quantitySelect {
     padding: 10px 10px 10px 2px;
 }
+
+@media (max-width: 480px) {
+    .checkoutRowContainer {
+        width: 100%;
+        padding: 1rem .5rem;
+    }
+
+    .itemLink,
+    .itemLink:visited,
+    .itemLink:active {
+        font-size: 1rem;
+        color: blue;
+    }
+}

@@ -23,7 +23,7 @@ a:link {
 }
 
 @media (max-width: 480px) {
-    ul {
+    li {
         display: none;
     }
 }

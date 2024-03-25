@@ -25,3 +25,13 @@
 .fa-shopping-cart:hover {
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .logoTitle {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+}

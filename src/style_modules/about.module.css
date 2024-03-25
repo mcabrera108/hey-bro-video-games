@@ -63,3 +63,27 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 480px) {
+    .aboutBannerHeader {
+        width: 100%;
+        left: 0;
+    }
+
+    .aboutMainContainer {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .aboutDescriptionContainer,
+    .aboutBannerPhotoContainer {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0rem;
+    }
+
+    .aboutImage {
+        width: 300px;
+        height: 300px;
+    }
+}

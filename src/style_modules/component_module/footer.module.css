@@ -33,3 +33,5 @@ i:hover {
 .copyrightTitle {
     font-size: .8rem;
 }
+
+@media (max-width:480px) {}

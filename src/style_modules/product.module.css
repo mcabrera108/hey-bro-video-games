@@ -69,3 +69,35 @@ form {
     font-size: 1.6rem;
     margin-right: 1rem;
 }
+
+@media (max-width: 480px) {
+    .productContainer {
+        flex-direction: column;
+    }
+
+    .productSummaryContainer,
+    form {
+        align-items: center;
+        width: 100%;
+    }
+
+    .imageContainer {
+        width: 100%;
+    }
+
+    .productName {
+        text-align: center;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .cartBtn {
+        margin-top: 1rem;
+    }
+
+    .quantitySelect {
+        width: 100%;
+    }
+}
