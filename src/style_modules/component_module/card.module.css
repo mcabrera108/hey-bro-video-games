@@ -47,3 +47,10 @@
     font-weight: 600;
     color: rgb(44, 104, 216);
 }
+
+@media (max-width: 480px) {
+    .cardContainer {
+        width: 100%;
+        max-width: 350px;
+    }
+}

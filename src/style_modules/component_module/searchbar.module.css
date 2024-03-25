@@ -7,3 +7,9 @@
     font-size: 1.5rem;
     font-family: var(--default-font-readable);
 }
+
+@media (max-width: 480px) {
+    .searchBarContainer {
+        width: 90%;
+    }
+}

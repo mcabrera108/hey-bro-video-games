@@ -15,3 +15,10 @@
 .mainContainer {
     min-height: 90vh;
 }
+
+@media (max-width: 480px) {
+    .shopContainer {
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, 1fr);
+    }
+}
