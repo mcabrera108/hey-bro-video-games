@@ -17,3 +17,21 @@
     align-items: center;
     width: 50%;
 }
+
+@media (max-width: 480px) {
+    .locationContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0rem;
+    }
+
+    .addressContainer,
+    .googleMapContainer {
+        width: 100%;
+    }
+
+    .googleMapContainer {
+        margin-top: 2rem;
+    }
+}

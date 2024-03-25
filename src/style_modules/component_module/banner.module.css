@@ -74,3 +74,15 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 480px) {
+    .bannerTitleContainer {
+        font-size: 2rem;
+    }
+
+    .bannerSubContainer {
+        width: 100%;
+        top: 50%;
+        left: 0%;
+    }
+}

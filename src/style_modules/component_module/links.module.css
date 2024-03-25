@@ -21,3 +21,9 @@ a:link {
 .navLink:active {
     text-decoration: none;
 }
+
+@media (max-width: 480px) {
+    ul {
+        display: none;
+    }
+}
